@@ -65,7 +65,7 @@ export function ProfilePage() {
 			} else {
 				toast.error(result.message);
 			}
-		} catch (error) {
+		} catch {
 			toast.error("Failed to change password");
 		} finally {
 			setIsChangingPassword(false);

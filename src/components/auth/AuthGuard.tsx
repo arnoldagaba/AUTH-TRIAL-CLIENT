@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Navigate, useLocation } from "react-router";
 import { Loader2 } from "lucide-react";
 import { useAuthStore } from "@/store/auth.store";
-import type { User } from "@/types/auth.types";
+// import type { User } from "@/types/auth.types";
 
 interface AuthGuardProps {
 	children: React.ReactNode;

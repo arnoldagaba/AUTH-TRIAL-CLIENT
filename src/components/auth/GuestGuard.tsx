@@ -1,4 +1,4 @@
-import { Navigate, useLocation } from "react-router";
+import { Navigate } from "react-router";
 import { useAuthStore } from "@/store/auth.store";
 
 interface GuestGuardProps {
